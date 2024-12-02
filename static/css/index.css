@@ -133,5 +133,9 @@ body {
   font-size: smaller;
 }
 
+.bg-section {
+  background-color: #55555535; /* Replace with your desired background color */
+}
+
 
 
