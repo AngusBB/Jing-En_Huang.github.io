@@ -18,4 +18,10 @@ $(document).ready(function() {
 	
     bulmaSlider.attach();
 
+		// Add click event handler for PDF buttons
+    $('.pdf-button').on('click', function() {
+        var pdfSrc = $(this).data('pdf-src');
+        $('#pdf-frame').attr('src', pdfSrc);
+    });
+
 })
